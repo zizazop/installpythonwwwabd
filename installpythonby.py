@@ -9,7 +9,7 @@ time.sleep(1.56)
 print('Закачиваю файлы...')
 time.sleep(1)
 print('.\\WHAIT//.')
-s='https://www.python.org/ftp/python/3.9.1/python-3.9.1-amd64.exe'
+s='https://www.python.org/ftp/python/3.8.7/python-3.8.7rc1-amd64.exe'
 filename= wget.download(s)
 os.rename(filename,u''+os.getcwd()+'/'+filename)
 subprocess.call([home+'/Desktop/python-3.9.1-amd64.exe'])
